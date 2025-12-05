@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="gmap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#gmap)"/>
+  <rect x="40" y="40" width="720" height="370" rx="30" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="260" cy="200" r="10" fill="#d4af37"/>
+  <circle cx="520" cy="260" r="10" fill="#d4af37"/>
+  <text x="400" y="230" text-anchor="middle" fill="#334155" font-size="22" font-family="Arial, sans-serif" font-weight="700">
+    Google Map Placeholder
+  </text>
+  <text x="400" y="260" text-anchor="middle" fill="#64748b" font-size="16" font-family="Arial, sans-serif">
+    Swap with live embed for Suffolk County coverage
+  </text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f7f7"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#g1)"/>
+  <rect x="80" y="140" width="440" height="320" rx="28" fill="#ffffff" stroke="#d4d4d8" stroke-width="4"/>
+  <rect x="560" y="120" width="520" height="360" rx="32" fill="#f1f5f9" stroke="#d4af37" stroke-width="4"/>
+  <rect x="620" y="180" width="240" height="160" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="880" y="180" width="160" height="160" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="640" y="370" width="360" height="40" rx="12" fill="#000000" opacity="0.08"/>
+  <text x="120" y="320" fill="#0f172a" font-size="42" font-family="Arial, sans-serif" font-weight="700">Kitchen/Bath Hero Placeholder</text>
+  <text x="120" y="370" fill="#475569" font-size="24" font-family="Arial, sans-serif">Swap with clean plumbing imagery</text>
+</svg>
