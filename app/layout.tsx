@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Script from "next/script";
 import { Inter, Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
@@ -66,13 +67,15 @@ export default function RootLayout({
             />
           </>
         )}
-        <AnalyticsProvider>
-          <div className="flex min-h-screen flex-col bg-white">
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
-        </AnalyticsProvider>
+        <Suspense fallback={null}>
+          <AnalyticsProvider>
+            <div className="flex min-h-screen flex-col bg-white">
+              <Header />
+              <main className="flex-1">{children}</main>
+              <Footer />
+            </div>
+          </AnalyticsProvider>
+        </Suspense>
       </body>
     </html>
   );
